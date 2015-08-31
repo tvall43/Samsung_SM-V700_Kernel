@@ -31,7 +31,7 @@ obj-$(CONFIG_EXYNOS5_PM)	+= pm-exynos5.o sleep-exynos5.o
 obj-$(CONFIG_CPU_FREQ)		+= cpufreq.o
 ifeq ($(CONFIG_MACH_WATCH),y)
 obj-$(CONFIG_EXYNOS4_CPUFREQ) += asv.o asv-4210.o asv-4x12-watch.o
-obj-$(CONFIG_EXYNOS4_CPUFREQ) += cpufreq-4210.o cpufreq-4x12.o
+obj-$(CONFIG_EXYNOS4_CPUFREQ) += cpufreq-4210.o cpufreq-4x12-watch.o
 else
 obj-$(CONFIG_EXYNOS4_CPUFREQ)	+= asv.o asv-4210.o asv-4x12.o
 obj-$(CONFIG_EXYNOS4_CPUFREQ)	+= cpufreq-4210.o cpufreq-4x12.o
